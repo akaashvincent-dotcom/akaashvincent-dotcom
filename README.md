@@ -11,9 +11,9 @@ in 2027. Most of my professional work is private, so a few representative projec
 ## Featured projects
 
 ### StudyTutor — adaptive study platform
-A two-user adaptive learning app that tailors practice to each learner. Built and shipped to production. One
-user raised an organic-chemistry grade from a C- to a 94%, and another scored 294 LOEP and 267 ACCUPLACER on
-placement tests.
+A multi-subject adaptive learning app that tailors practice to each learner. Built and shipped to production
+with documented learning gains: one user raised an organic-chemistry grade from a C- to a 94%, and another
+scored 294 LOEP and 267 ACCUPLACER on placement tests.
 **Tech:** React, Vite, JavaScript, Firebase, Vercel. **Live demo:** https://mystudytutor.vercel.app
 
 ![StudyTutor](assets/studytutor.png)
