@@ -14,7 +14,7 @@ in 2027. Most of my professional work is private, so a few representative projec
 A two-user adaptive learning app that tailors practice to each learner. Built and shipped to production. One
 user raised an organic-chemistry grade from a C- to a 94%, and another scored 294 LOEP and 267 ACCUPLACER on
 placement tests.
-**Tech:** React, Vite. **Live demo:** https://mystudytutor.vercel.app
+**Tech:** React, Vite, JavaScript, Firebase, Vercel. **Live demo:** https://mystudytutor.vercel.app
 
 ![StudyTutor](assets/studytutor.png)
 
@@ -26,7 +26,7 @@ time-to-hire variance across departments.
 
 ![Recruiting funnel dashboard](assets/dashboard.png)
 
-### design-studio / product-studio — multi-agent build pipelines
+### Design-Studio / Product-Studio — multi-agent build pipelines
 Reusable multi-agent pipelines that move an idea through concept, build, and review stages to produce working
 UIs and product plans. Used to ship StudyTutor and other projects. Concept and sample outputs shown here;
 internals kept private.
