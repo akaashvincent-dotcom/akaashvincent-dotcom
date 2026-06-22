@@ -16,17 +16,23 @@ user raised an organic-chemistry grade from a C- to a 94%, and another scored 29
 placement tests.
 **Tech:** React, Vite. **Live demo:** https://mystudytutor.vercel.app
 
+![StudyTutor](assets/studytutor.png)
+
 ### Recruiting Funnel Analysis Dashboard
 An end-to-end recruiting-analytics pipeline on a 300-candidate dataset. Surfaced a 49% screen-to-interview
 drop-off as the top bottleneck, showed LinkedIn and Indeed driving 71% of hires, and broke down a 2.4x
 time-to-hire variance across departments.
 **Tech:** Excel, Tableau, Python.
 
+![Recruiting funnel dashboard](assets/dashboard.png)
+
 ### design-studio / product-studio — multi-agent build pipelines
 Reusable multi-agent pipelines that move an idea through concept, build, and review stages to produce working
 UIs and product plans. Used to ship StudyTutor and other projects. Concept and sample outputs shown here;
 internals kept private.
 **Tech:** Claude Code, multi-agent orchestration.
+
+![design-studio output](assets/design-studio.png)
 
 ### Dyslexia in the Workplace — I-O research
 A 2×2 factorial study (n=200 employed adults) on reading accommodations. Found a significant
