@@ -86,6 +86,11 @@ Dyslexia-by-Condition effect on reading speed (F(1,151)=13.32, p<.001) and a wor
 
 **Tools** Qualtrics, Excel, factorial ANOVA.
 
+<p align="center">
+  <img src="assets/dyslexia-poster.png" width="800" alt="Conference poster, Dyslexia in the Workplace (Coscia, Baka, Vincent and Budnick): a 2x2 text-to-speech by dyslexia factorial study, presented at EPA 2026">
+</p>
+<p align="center"><em><a href="assets/dyslexia-poster.pdf">Full poster (PDF)</a> · Eastern Psychological Association, 2026</em></p>
+
 ---
 
 ## Skills
