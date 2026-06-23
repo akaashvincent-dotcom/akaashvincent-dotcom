@@ -4,48 +4,102 @@
 
 [LinkedIn](https://www.linkedin.com/in/akaash-vincent-548013338/) · akaashvincent@gmail.com
 
-I build AI tools for HR and people teams, grounded in industrial-organizational psychology. Currently an HR
-technology intern at an employee-owned architecture firm, and starting a part-time M.A./M.S. in I-O Psychology
-in 2027. Most of my professional work is private, so a few representative projects are below.
+I build AI tools for HR and people teams, grounded in industrial-organizational psychology. I'm an HR
+technology intern at an employee-owned architecture firm, and starting a part-time M.A./M.S. in I-O
+Psychology in 2027. Most of my professional work is private, so a few representative projects are below.
 
-## Featured projects
+---
 
-### StudyTutor — adaptive study platform
-A multi-subject adaptive learning app that tailors practice to each learner. Built and shipped to production
-with documented learning gains: one user raised an organic-chemistry grade from a C- to a 94%, and another
-scored 294 LOEP and 267 ACCUPLACER on placement tests.
-**Tech:** React, Vite, JavaScript, Firebase, Vercel. **Live demo:** https://mystudytutor.vercel.app
+## StudyTutor: adaptive study platform · [live demo](https://mystudytutor.vercel.app)
 
-![StudyTutor](assets/studytutor.png)
+Students practice with tools that never adapt to what they keep getting wrong. StudyTutor grades each answer,
+explains the reasoning, and spaces repetition toward the gaps. I built and shipped it across organic
+chemistry, ESL, and college math placement.
 
-### Recruiting Funnel Analysis Dashboard
-An end-to-end recruiting-analytics pipeline on a 300-candidate dataset. Surfaced a 49% screen-to-interview
-drop-off as the top bottleneck, showed LinkedIn and Indeed driving 71% of hires, and broke down a 2.4x
-time-to-hire variance across departments.
-**Tech:** Excel, Tableau, Python.
+- One user raised an organic-chemistry grade from a C- to a 94%.
+- Others used it to prep for college ESL and math placement (294 LOEP, 267 ACCUPLACER).
+- Live in production. The triptych and clip below are the real app, not mockups.
 
-![Recruiting funnel dashboard](assets/dashboard.png)
+**Built with** React, Vite, JavaScript, Firebase, Vercel.
 
-### Design-Studio / Product-Studio — multi-agent build pipelines
-Reusable multi-agent pipelines that move an idea through concept, build, and review stages to produce working
-UIs and product plans. Used to ship StudyTutor and other projects. Concept and sample outputs shown here;
-internals kept private.
-**Tech:** Claude Code, multi-agent orchestration.
+<p align="center">
+  <img src="assets/st-triptych.png" width="840" alt="StudyTutor on mobile: the subject picker, an organic-chemistry practice question, and a graded answer with a worked explanation and XP">
+</p>
+<p align="center">
+  <img src="assets/studytutor-practice.gif" width="280" alt="StudyTutor live: answering a question, instant grading, a worked explanation, and XP">
+</p>
 
-![design-studio output](assets/design-studio.png)
+<p align="center"><em>The live app: pick a subject, answer, and get graded with a worked explanation and spaced review.</em></p>
 
-### Dyslexia in the Workplace — I-O research
+---
+
+## Recruiting funnel analysis
+
+A 300-candidate recruiting funnel was leaking, and the bottleneck was not obvious. I analyzed it in Excel,
+Tableau, and Python, then rebuilt the findings as the dashboard below.
+
+- The structural bottleneck: 49% of screened candidates never reached an interview.
+- LinkedIn and Indeed together drove 71% of hires.
+- Time-to-hire ran 2.4 times longer in Engineering than in Sales.
+
+**Built with** Excel, Tableau, Python. Dashboard rebuilt for presentation with representative figures.
+
+<p align="center">
+  <img src="assets/dash-overview.png" width="840" alt="Recruiting funnel dashboard overview: 8.0% application-to-hire, 24 hires, 18-day median time-to-hire, 2.4x department spread, and a conversion funnel highlighting the 49% screen-to-interview bottleneck">
+</p>
+<p align="center">
+  <img src="assets/dash-sources.png" width="270" alt="Hires by source: LinkedIn and Indeed at 71% combined">
+  <img src="assets/dash-timetohire.png" width="270" alt="Time-to-hire by department: 2.4x spread, Sales fastest at 11 days, Engineering slowest at 26 days">
+  <img src="assets/dash-candidates.png" width="270" alt="Candidate pipeline view">
+</p>
+
+<p align="center"><em>Overview, source mix, and time-to-hire views. The clay band marks the screen-to-interview bottleneck.</em></p>
+
+---
+
+## Design-studio: multi-agent UI pipeline · sample: an AI HR copilot
+
+Taking a product idea to a working, on-brand interface usually means a designer, a developer, and several
+rounds of review. I built a pipeline that turns a brief into a self-contained UI, with a concept gate up
+front and a screenshot-armed critic before anything ships. Concept, build, and critique run as separate
+agents.
+
+The sample below is **Aria**, an Ask-HR copilot concept the pipeline produced. Every answer cites the policy
+it came from and shows how confident it is.
+
+- A design sample from the pipeline, not a shipped product.
+- Built to show how I design AI-for-HR interfaces, my main focus.
+
+**Built with** Claude Code, multi-agent orchestration, HTML, CSS, JavaScript.
+
+<p align="center">
+  <img src="assets/aria-convo.png" width="840" alt="Aria Ask-HR copilot: an answer about PTO carryover with a 94% confidence bar, three cited policy sources, and a sources-cited side panel">
+</p>
+<p align="center">
+  <img src="assets/aria-empty.png" width="540" alt="Aria empty state: ask anything about pay, leave, or benefits, with suggested questions">
+</p>
+
+<p align="center"><em>Sample output. Aria answers HR questions and cites the policy behind each answer.</em></p>
+
+---
+
+## Dyslexia in the workplace: I-O research
+
 A 2×2 factorial study (n=200 employed adults) on reading accommodations. Found a significant
 Dyslexia-by-Condition effect on reading speed (F(1,151)=13.32, p<.001) and a workplace-competence gap
 (t(153)=2.22, p=.03). Presented at the Eastern Psychological Association 2026 conference.
-**Tools:** Qualtrics, Excel, factorial ANOVA.
+
+**Tools** Qualtrics, Excel, factorial ANOVA.
+
+---
 
 ## Skills
+
 AI application development (Claude API, Codex, structured outputs, prompt caching), full-stack prototyping
 (Python, Flask, React), people analytics (Excel, Tableau, SQL, Qualtrics), and HR systems (Oracle Fusion
 Cloud HCM, SAP SuccessFactors, Workday, Greenhouse, SharePoint, Copilot).
 
 ---
 
-Some professional work, including AI HR products built during my internship, is confidential. Happy to walk
+Some professional work, including AI HR tools built during my internship, is confidential. Happy to walk
 through it on request.
