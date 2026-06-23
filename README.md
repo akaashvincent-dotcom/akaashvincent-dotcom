@@ -99,6 +99,11 @@ AI application development (Claude API, Codex, structured outputs, prompt cachin
 (Python, Flask, React), people analytics (Excel, Tableau, SQL, Qualtrics), and HR systems (Oracle Fusion
 Cloud HCM, SAP SuccessFactors, Workday, Greenhouse, SharePoint, Copilot).
 
+## Other builds
+
+**DJ Stage Show** · a real-time, music-reactive visualizer built in JavaScript and the Web Audio API, run
+live at 5 paid events (weddings, parties, corporate) for crowds of 70 to 150, with repeat bookings.
+
 ---
 
 Some professional work, including AI HR tools built during my internship, is confidential. Happy to walk
