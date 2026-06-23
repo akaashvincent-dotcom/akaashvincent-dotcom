@@ -1,3 +1,5 @@
+<a id="top"></a>
+
 # Akaash Vincent
 
 **AI × HR Technology · People Analytics · I-O Psychology**
@@ -8,7 +10,11 @@ I build AI tools for HR and people teams, grounded in industrial-organizational 
 technology intern at an employee-owned architecture firm, and starting a part-time M.A./M.S. in I-O
 Psychology in 2027. Most of my professional work is private, so a few representative projects are below.
 
+**Jump to** · [StudyTutor](#studytutor) · [Recruiting analysis](#recruiting) · [L&D Agent](#ld-agent) · [Design pipeline](#design) · [Research](#research) · [DJ Stage Show](#dj) · [Skills](#skills)
+
 ---
+
+<a id="studytutor"></a>
 
 ## StudyTutor: adaptive study platform · [live demo](https://mystudytutor.vercel.app)
 
@@ -31,7 +37,11 @@ chemistry, ESL, and college math placement.
 
 <p align="center"><em>The live app: pick a subject, answer, and get graded with a worked explanation and spaced review.</em></p>
 
+<p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
+
 ---
+
+<a id="recruiting"></a>
 
 ## Recruiting funnel analysis
 
@@ -50,7 +60,11 @@ Tableau, and Python, then rebuilt the findings as the dashboard below.
 
 <p align="center"><em>Built in Tableau: the funnel, source mix, and time-to-hire on one canvas. The red stage marks the screen-to-interview bottleneck.</em></p>
 
+<p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
+
 ---
+
+<a id="ld-agent"></a>
 
 ## L&D Agent: AI onboarding for specialty hiring · concept demo
 
@@ -78,7 +92,11 @@ mentor-reviewed onboarding plan — so the specialty gap becomes closeable witho
 
 <p align="center"><em>A concept demo built for an employee-owned architecture firm; the firm and candidate are fictional. The agent maps a candidate to a competency framework, then generates a mentor-reviewed onboarding plan.</em></p>
 
+<p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
+
 ---
+
+<a id="design"></a>
 
 ## Design-studio: multi-agent UI pipeline · sample: an AI HR copilot
 
@@ -104,7 +122,11 @@ it came from and shows how confident it is.
 
 <p align="center"><em>Sample output. Aria answers HR questions and cites the policy behind each answer.</em></p>
 
+<p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
+
 ---
+
+<a id="research"></a>
 
 ## Dyslexia in the workplace: I-O research
 
@@ -119,13 +141,11 @@ Dyslexia-by-Condition effect on reading speed (F(1,151)=13.32, p<.001) and a wor
 </p>
 <p align="center"><em><a href="assets/dyslexia-poster.pdf">Full poster (PDF)</a> · Eastern Psychological Association, 2026</em></p>
 
+<p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
+
 ---
 
-## Skills
-
-AI application development (Claude API, Codex, structured outputs, prompt caching), full-stack prototyping
-(Python, Flask, React), people analytics (Excel, Tableau, SQL, Qualtrics), and HR systems (Oracle Fusion
-Cloud HCM, SAP SuccessFactors, Workday, Greenhouse, SharePoint, Copilot).
+<a id="dj"></a>
 
 ## DJ Stage Show: real-time performance visualizer
 
@@ -148,7 +168,26 @@ timing — reacting to the music in real time. One self-contained HTML file, no 
 
 <p align="center"><em>The live console during a set — decks, moving waveforms, and crossfade timing, reacting to the track in real time.</em></p>
 
+<p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
+
+---
+
+<a id="skills"></a>
+
+<details>
+<summary><b>Skills &amp; tools</b> — AI application development · full-stack prototyping · people analytics · HR systems</summary>
+
+<br>
+
+AI application development (Claude API, Codex, structured outputs, prompt caching), full-stack prototyping
+(Python, Flask, React), people analytics (Excel, Tableau, SQL, Qualtrics), and HR systems (Oracle Fusion
+Cloud HCM, SAP SuccessFactors, Workday, Greenhouse, SharePoint, Copilot).
+
+</details>
+
 ---
 
 Some professional work, including AI HR tools built during my internship, is confidential. Happy to walk
 through it on request.
+
+<p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
