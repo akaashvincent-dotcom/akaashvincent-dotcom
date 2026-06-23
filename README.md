@@ -45,15 +45,10 @@ Tableau, and Python, then rebuilt the findings as the dashboard below.
 **Built with** Excel, Tableau, Python. Dashboard rebuilt for presentation with representative figures.
 
 <p align="center">
-  <img src="assets/dash-overview.png" width="840" alt="Recruiting funnel dashboard overview: 8.0% application-to-hire, 24 hires, 18-day median time-to-hire, 2.4x department spread, and a conversion funnel highlighting the 49% screen-to-interview bottleneck">
-</p>
-<p align="center">
-  <img src="assets/dash-sources.png" width="270" alt="Hires by source: LinkedIn and Indeed at 71% combined">
-  <img src="assets/dash-timetohire.png" width="270" alt="Time-to-hire by department: 2.4x spread, Sales fastest at 11 days, Engineering slowest at 26 days">
-  <img src="assets/dash-candidates.png" width="270" alt="Candidate pipeline view">
+  <img src="assets/dash-tableau.png" width="880" alt="Tableau dashboard: a recruiting funnel with the 49% screen-to-interview bottleneck flagged in red, hires by source (LinkedIn and Indeed at 71% combined), and median time-to-hire by department showing the 2.4x spread">
 </p>
 
-<p align="center"><em>Overview, source mix, and time-to-hire views. The clay band marks the screen-to-interview bottleneck.</em></p>
+<p align="center"><em>Built in Tableau: the funnel, source mix, and time-to-hire on one canvas. The red stage marks the screen-to-interview bottleneck.</em></p>
 
 ---
 
