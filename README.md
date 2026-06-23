@@ -52,6 +52,34 @@ Tableau, and Python, then rebuilt the findings as the dashboard below.
 
 ---
 
+## L&D Agent: AI onboarding for specialty hiring · concept demo
+
+Specialty architecture firms often can't hire architects with direct experience in their niche — the talent
+sits one specialty over, in adjacent work. Every adjacent hire then means a senior architect building a
+training program from scratch, so the hire frequently doesn't happen. The L&D Agent reads a candidate's
+background, maps it to the firm's competency framework, and generates a gap analysis and a phased,
+mentor-reviewed onboarding plan — so the specialty gap becomes closeable without burning senior time.
+
+- Maps a résumé to a 10-competency framework, scores hiring readiness, and separates critical gaps from
+  transferable strengths.
+- Generates a phased ramp plan with review gates, senior sign-offs, and an estimated time-to-billable.
+- Role-aware: an HR/talent-acquisition lens and a design-leadership lens read the same candidate differently.
+- Grounded Q&A: a knowledge base of practice knowledge rides in the prompt as a cached prefix, so answers
+  reflect the firm's own way of working.
+
+**Built with** Claude API, Python, Flask, prompt caching, HTML, CSS, JavaScript.
+
+<p align="center">
+  <img src="assets/ld-gap.jpg" width="860" alt="L&D Agent gap analysis: a candidate mapped to a 10-competency framework with a 58 of 100 hiring-readiness score, three critical gaps flagged, an estimated nine-week time-to-billable, and a proceed-with-conditions recommendation">
+</p>
+<p align="center">
+  <img src="assets/ld-plan.jpg" width="860" alt="L&D Agent training plan: a phased week-by-week onboarding ramp with deliverables, step-by-step guidance for the new hire and mentor, and senior sign-off gates">
+</p>
+
+<p align="center"><em>A concept demo built for an employee-owned architecture firm; the firm and candidate are fictional. The agent maps a candidate to a competency framework, then generates a mentor-reviewed onboarding plan.</em></p>
+
+---
+
 ## Design-studio: multi-agent UI pipeline · sample: an AI HR copilot
 
 Taking a product idea to a working, on-brand interface usually means a designer, a developer, and several
