@@ -127,10 +127,26 @@ AI application development (Claude API, Codex, structured outputs, prompt cachin
 (Python, Flask, React), people analytics (Excel, Tableau, SQL, Qualtrics), and HR systems (Oracle Fusion
 Cloud HCM, SAP SuccessFactors, Workday, Greenhouse, SharePoint, Copilot).
 
-## Other builds
+## DJ Stage Show: real-time performance visualizer
 
-**DJ Stage Show** · a real-time, music-reactive visualizer built in JavaScript and the Web Audio API, run
-live at 5 paid events (weddings, parties, corporate) for crowds of 70 to 150, with repeat bookings.
+A live visual console I run at my DJ sets. It reads the playing track and the audio signal and renders a
+dual-deck performance view — now-playing and cued decks, moving waveforms, BPM and key, and crossfade
+timing — reacting to the music in real time. One self-contained HTML file, no backend, run from the booth.
+
+- Run live at 5 paid events — weddings, parties, corporate — for crowds of 70 to 150, with repeat bookings.
+- Reacts to the live audio signal (Web Audio API) and the currently-playing track from the Spotify API.
+- Decks, platters, and album art render to canvas; the whole thing is a single file off a laptop.
+
+**Built with** JavaScript, Web Audio API, Canvas, Spotify API.
+
+<p align="center">
+  <img src="assets/dj-console.jpg" width="840" alt="DJ Stage Show performance console: a now-playing deck and a cued deck with album art and spinning platters, live waveforms, BPM and musical key per deck, an 808 mix section with EQ, a crossfade control, and a track list">
+</p>
+<p align="center">
+  <img src="assets/dj-console.gif" width="300" alt="The now-playing deck animating live: album art, a spinning record platter, a moving neon waveform, and a ticking elapsed time">
+</p>
+
+<p align="center"><em>The live console during a set — decks, moving waveforms, and crossfade timing, reacting to the track in real time.</em></p>
 
 ---
 
