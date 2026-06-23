@@ -37,6 +37,14 @@ chemistry, ESL, and college math placement.
 
 <p align="center"><em>The live app: pick a subject, answer, and get graded with a worked explanation and spaced review.</em></p>
 
+<p align="center">
+  <img src="assets/st-home.jpg" width="240" alt="StudyTutor home dashboard: a daily goal of 5 problems, day-streak and total-XP counters, and Quiz, Test, and Vocab practice modes">
+  <img src="assets/st-course.jpg" width="240" alt="StudyTutor course map: all 7 chapters of organic chemistry live with 363 problems, each chapter showing mastery progress">
+  <img src="assets/st-testmode.jpg" width="240" alt="StudyTutor Test Mode: a timed, blueprint-aligned exam across all 20 topics, self-graded after the timer, aligned to Klein 4e">
+</p>
+
+<p align="center"><em>More of the app — a goal-driven home, a 7-chapter course map (363 problems), and timed exam prep.</em></p>
+
 <p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
 
 ---
@@ -91,6 +99,13 @@ mentor-reviewed onboarding plan — so the specialty gap becomes closeable witho
 </p>
 
 <p align="center"><em>A concept demo built for an employee-owned architecture firm; the firm and candidate are fictional. The agent maps a candidate to a competency framework, then generates a mentor-reviewed onboarding plan.</em></p>
+
+<p align="center">
+  <img src="assets/ld-intake.jpg" width="420" alt="L&D Agent intake screen: paste a candidate background or import a résumé and portfolio, choose a competency track, and the AI maps it to the firm's competency framework">
+  <img src="assets/ld-ask.jpg" width="420" alt="L&D Agent Ask-HR workspace: a knowledge-grounded chat answering questions about firm standards and the training plan, every answer citing its source">
+</p>
+
+<p align="center"><em>The full pipeline — paste a background at intake, then a knowledge-grounded Ask-HR workspace where every answer cites its source.</em></p>
 
 <p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
 
