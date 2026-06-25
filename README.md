@@ -10,7 +10,7 @@ I build AI tools for HR and people teams, grounded in industrial-organizational 
 technology intern at an employee-owned architecture firm, and starting a part-time M.A./M.S. in I-O
 Psychology in 2027. Most of my professional work is private, so a few representative projects are below.
 
-**Jump to** · [StudyTutor](#studytutor) · [Recruiting analysis](#recruiting) · [L&D Agent](#ld-agent) · [Design pipeline](#design) · [Research](#research) · [DJ Stage Show](#dj) · [Skills](#skills)
+**Jump to** · [StudyTutor](#studytutor) · [Recruiting analysis](#recruiting) · [L&D Agent](#ld-agent) · [Design pipeline](#design) · [Command Center](#command-center) · [Research](#research) · [DJ Stage Show](#dj) · [Skills](#skills)
 
 ---
 
@@ -116,17 +116,19 @@ mentor-reviewed onboarding plan — so the specialty gap becomes closeable witho
 ## Design-studio: multi-agent UI pipeline · sample: an AI HR copilot
 
 Taking a product idea to a working, on-brand interface usually means a designer, a developer, and several
-rounds of review. I built a pipeline that turns a brief into a self-contained UI, with a concept gate up
-front and a screenshot-armed critic before anything ships. Concept, build, and critique run as separate
-agents.
+rounds of review. I built a three-stage pipeline — plan, design, build — that turns a brief into a working
+app. A concept gate picks the direction up front, then automated checks run before anything ships: an
+interaction probe clicks through the result in a headless browser, and a reviewer grades the code against a
+quality bar, so nothing is called done on an agent's word. Each stage runs as its own agent.
 
-The sample below is **Aria**, an Ask-HR copilot concept the pipeline produced. Every answer cites the policy
-it came from and shows how confident it is.
+This is how I build now. The pipeline helped produce the [Command Center](#command-center) job-search app
+below, [StudyTutor](#studytutor), the [DJ Stage Show](#dj) visualizer, and the **Aria** Ask-HR copilot sample
+shown here — every Aria answer cites the policy it came from and shows how confident it is.
 
-- A design sample from the pipeline, not a shipped product.
-- Built to show how I design AI-for-HR interfaces, my main focus.
+- A three-stage pipeline (plan → design → build) with a concept gate and screenshot-and-click verification.
+- Built to show how I design AI-for-HR interfaces, my main focus. Aria here is a design sample, not a shipped product.
 
-**Built with** Claude Code, multi-agent orchestration, HTML, CSS, JavaScript.
+**Built with** Claude Code, multi-agent orchestration, headless-browser verification, HTML, CSS, JavaScript.
 
 <p align="center">
   <img src="assets/aria-convo.png" width="840" alt="Aria Ask-HR copilot: an answer about PTO carryover with a 94% confidence bar, three cited policy sources, and a sources-cited side panel">
@@ -136,6 +138,51 @@ it came from and shows how confident it is.
 </p>
 
 <p align="center"><em>Sample output. Aria answers HR questions and cites the policy behind each answer.</em></p>
+
+<p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
+
+---
+
+<a id="command-center"></a>
+
+## Command Center: job-search operations app · [live demo](https://command-center-demo-three.vercel.app)
+
+Running a real job search means juggling a spreadsheet of applications, a stack of job descriptions, and a
+list of people to reach — usually across three different tools. Command Center puts all of it on one screen:
+an application pipeline, a live analytics readout, a role-fit assessor, and a warm-intro tracker, themed as a
+cockpit. It is one self-contained HTML file — local-first, no backend, with JSON export so the data stays
+portable. The demo runs on sample data.
+
+- **Pipeline** — every application as a card, filtered by tier, track, and risk, and advanced through
+  Applied → Screen → Interview → Offer.
+- **Analytics** — a readout computed live from the pipeline: a countdown to a target date, weekly pace, a
+  traction funnel, and a reach/stretch/safe risk profile. Nothing is hand-set.
+- **Role Fit** — paste a job description and assess against it; strengths and gap flags come back in plain
+  language, scored.
+- **Network** — in-lane contacts, each with a drafted outreach opener, scored and tracked separately from
+  the pipeline.
+
+**Built with** single-file HTML, CSS, JavaScript, localStorage, Vercel. Built through my design-studio pipeline.
+
+<p align="center">
+  <img src="assets/command-center.png" width="840" alt="Command Center analytics screen: a 52-days-to-target mission clock, weekly pace, a traction funnel from applied to offer, a track mix of AI-product versus HR, and a reach-stretch-safe risk profile">
+</p>
+
+<p align="center"><em>The analytics readout — countdown, pace, traction funnel, and risk mix, all computed from the pipeline.</em></p>
+
+<p align="center">
+  <img src="assets/cc-pipeline.jpg" width="420" alt="Command Center pipeline: applications as cards in a review queue and active funnel, with tier, track, and risk filters">
+  <img src="assets/cc-rolefit.jpg" width="420" alt="Command Center role-fit assessor: a job description scored against the profile, with a fit score, strengths, and named gaps">
+</p>
+
+<p align="center"><em>The pipeline of applications, and the role-fit assessor scoring a job description into strengths and gaps.</em></p>
+
+<p align="center">
+  <img src="assets/cc-network.jpg" width="420" alt="Command Center network screen: warm-intro contacts as cards, each with a drafted opener, a score, and a reached toggle">
+  <img src="assets/cc-profile.jpg" width="420" alt="Command Center profile screen: a HUD summary of applications, offers, interviews, and days left, with a pixel-art avatar">
+</p>
+
+<p align="center"><em>Warm-intro contacts with drafted openers, and a HUD profile summary.</em></p>
 
 <p align="right"><sub><a href="#top">↑ back to top</a></sub></p>
 
